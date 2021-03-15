@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Variables colores normales */
 /* Cadet blue */
 /* Brick red */
@@ -10,7 +11,7 @@
 /* Variables Submenus */
 /* Charcoal */
 /* Wine */
-/* Liver Dogs */
+/* Golden Brown */
 /* Old Gold */
 /* Light Slate Gray */
 /* Avocado */
@@ -19,7 +20,7 @@
 /* Variables Submenus2 - Para Accordion */
 /* Slate Gray */
 /* Red Violet Color Wheel */
-/* Yellow Orange */
+/* Ochre */
 /* Safety Yellow */
 /* Beau Blue */
 /* Bitter Lemon */
@@ -43,6 +44,7 @@
 /* VER SI HAY QUE CAMBIAR */
 /* Hover Accordion */
 /* Candy Pink */
+/* Yellow Orange */
 .navbar {
   background-color: #202020;
   font-family: Helvetica, Arial, sans-serif;
@@ -115,19 +117,9 @@ body {
   .header__vverde h5 button {
     color: #fff; }
 
-.header__naranja {
-  background-color: #ff9505; }
-  .header__naranja h5 button {
-    color: #181818; }
-
 .header__verde {
   background-color: #8ea604; }
   .header__verde h5 button {
-    color: #fff; }
-
-.header__rojo {
-  background-color: #c14953; }
-  .header__rojo h5 button {
     color: #fff; }
 
 /* fin accordion */
@@ -171,13 +163,6 @@ body {
   .submenu__img .nav-link {
     color: black; }
 
-.submenu__indu {
-  background-color: #b86b00; }
-  .submenu__indu .nav-item:hover {
-    background-color: #ffa21f; }
-  .submenu__indu .nav-link {
-    color: #fff; }
-
 .submenu__cbc {
   background-color: #344146; }
   .submenu__cbc .nav-item:hover {
@@ -192,12 +177,17 @@ body {
 
 /* Fin Buttons del Accordion */
 /* Submenu Catedras */
-/* Arquitectura */
+/* Inicio de Arquitectura */
 .submenu__arq {
   background-color: #6a242a; }
   .submenu__arq .nav-item:hover {
     background-color: #c14951; }
   .submenu__arq .nav-link {
+    color: #fff; }
+
+.header__rojo {
+  background-color: #c14953; }
+  .header__rojo h5 button {
     color: #fff; }
 
 .submenu__arq--listado {
@@ -211,6 +201,31 @@ body {
     background-color: #d0767c; }
 
 /* Fin Arquitectura */
+/* Inicio Diseño de Indumentaria */
+/* Color */
+.header__naranja {
+  background-color: #ff9505; }
+  .header__naranja h5 button {
+    color: #181818; }
+
+.submenu__indu {
+  background-color: #a35f00; }
+  .submenu__indu .nav-item:hover {
+    background-color: #ffa21f; }
+  .submenu__indu .nav-link {
+    color: #fff; }
+
+.submenu__indu--listado {
+  background-color: #cc7700; }
+
+.submenu__indu--catedras {
+  background-color: #ffa21f; }
+  .submenu__indu--catedras .nav-link {
+    color: #fff; }
+  .submenu__indu--catedras .nav-item:hover {
+    background-color: #ffbb5c; }
+
+/* Fin de Diseño de Indumentaria */
 .site-footer {
   background-color: #202020;
   padding: 45px 0 20px;

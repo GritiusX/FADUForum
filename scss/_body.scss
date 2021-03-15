@@ -58,26 +58,8 @@ body {
   }
 }
 
-.header__naranja {
-  background-color: $oorange;
-  h5 {
-    button {
-      color: #181818;
-    }
-  }
-}
-
 .header__verde {
   background-color: $ggreen;
-  h5 {
-    button {
-      color: #fff;
-    }
-  }
-}
-
-.header__rojo {
-  background-color: $rred;
   h5 {
     button {
       color: #fff;
@@ -144,17 +126,6 @@ body {
   }
 }
 
-.submenu__indu {
-  background-color: $s1orange;
-
-  .nav-item:hover {
-    background-color: $osorange;
-  }
-  .nav-link {
-    color: #fff;
-  }
-}
-
 .submenu__cbc {
   background-color: $s1blue;
 
@@ -175,7 +146,7 @@ body {
 
 /* Submenu Catedras */
 
-/* Arquitectura */
+/* Inicio de Arquitectura */
 .submenu__arq {
   background-color: $s1red;
 
@@ -184,6 +155,15 @@ body {
   }
   .nav-link {
     color: #fff;
+  }
+}
+
+.header__rojo {
+  background-color: $rred;
+  h5 {
+    button {
+      color: #fff;
+    }
   }
 }
 
@@ -201,3 +181,40 @@ body {
   }
 }
 /* Fin Arquitectura */
+
+/* Inicio Diseño de Indumentaria */
+/* Color */
+.header__naranja {
+  background-color: $oorange;
+  h5 {
+    button {
+      color: #181818;
+    }
+  }
+}
+
+.submenu__indu {
+  background-color: $s1orange;
+
+  .nav-item:hover {
+    background-color: $osorange;
+  }
+  .nav-link {
+    color: #fff;
+  }
+}
+
+.submenu__indu--listado {
+  background-color: $s2orange;
+}
+
+.submenu__indu--catedras {
+  background-color: $osorange;
+  .nav-link {
+    color: #fff;
+  }
+  .nav-item:hover {
+    background-color: $horange;
+  }
+}
+/* Fin de Diseño de Indumentaria */
