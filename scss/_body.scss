@@ -102,16 +102,6 @@ body {
     color: black;
   }
 }
-.submenu__arq {
-  background-color: $s1red;
-
-  .nav-item:hover {
-    background-color: $osred;
-  }
-  .nav-link {
-    color: #fff;
-  }
-}
 
 .submenu__paisa {
   background-color: $su1green;
@@ -186,6 +176,17 @@ body {
 /* Submenu Catedras */
 
 /* Arquitectura */
+.submenu__arq {
+  background-color: $s1red;
+
+  .nav-item:hover {
+    background-color: $osred;
+  }
+  .nav-link {
+    color: #fff;
+  }
+}
+
 .submenu__arq--listado {
   background-color: $s2red;
 }
