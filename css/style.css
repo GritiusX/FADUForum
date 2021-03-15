@@ -12,7 +12,7 @@
 /* Charcoal */
 /* Wine */
 /* Golden Brown */
-/* Old Gold */
+/* Gold */
 /* Light Slate Gray */
 /* Avocado */
 /* Byzantium */
@@ -21,7 +21,7 @@
 /* Slate Gray */
 /* Red Violet Color Wheel */
 /* Ochre */
-/* Safety Yellow */
+/* Old Gold */
 /* Beau Blue */
 /* Bitter Lemon */
 /* Opera Mauve */
@@ -31,9 +31,7 @@
 /* VER SI HAY QUE CAMBIAR */
 /* Bittersweet Shimmer */
 /* Orange Peel */
-/* VER SI HAY QUE CAMBIAR */
-/* Yellow Munsell */
-/* VER SI HAY QUE CAMBIAR */
+/* Safety Yellow */
 /* Cadet Blue Crayola */
 /* VER SI HAY QUE CAMBIAR */
 /* Acid Green */
@@ -45,6 +43,7 @@
 /* Hover Accordion */
 /* Candy Pink */
 /* Yellow Orange */
+/* Corn */
 .navbar {
   background-color: #202020;
   font-family: Helvetica, Arial, sans-serif;
@@ -102,11 +101,6 @@ body {
   .header__cyan h5 button {
     color: #181818; }
 
-.header__amarillo {
-  background-color: #fde12d; }
-  .header__amarillo h5 button {
-    color: #181818; }
-
 .header__violeta {
   background-color: #9c528b; }
   .header__violeta h5 button {
@@ -156,13 +150,6 @@ body {
   .submenu__graf .nav-link {
     color: #fff; }
 
-.submenu__img {
-  background-color: #caaf02; }
-  .submenu__img .nav-item:hover {
-    background-color: #dec102; }
-  .submenu__img .nav-link {
-    color: black; }
-
 .submenu__cbc {
   background-color: #344146; }
   .submenu__cbc .nav-item:hover {
@@ -178,29 +165,47 @@ body {
 /* Fin Buttons del Accordion */
 /* Submenu Catedras */
 /* Inicio de Arquitectura */
-.submenu__arq {
-  background-color: #6a242a; }
-  .submenu__arq .nav-item:hover {
-    background-color: #c14951; }
-  .submenu__arq .nav-link {
-    color: #fff; }
-
 .header__rojo {
   background-color: #c14953; }
   .header__rojo h5 button {
     color: #fff; }
+
+.submenu__arq {
+  background-color: #6a242a; }
 
 .submenu__arq--listado {
   background-color: #892f36; }
 
 .submenu__arq--catedras {
   background-color: #c14951; }
-  .submenu__arq--catedras .nav-link {
-    color: #fff; }
   .submenu__arq--catedras .nav-item:hover {
     background-color: #d0767c; }
+  .submenu__arq--catedras .nav-link {
+    color: #fff; }
 
 /* Fin Arquitectura */
+/* Inicio Diseño de Imagen y Sonido */
+/* Color */
+.header__amarillo {
+  background-color: #fde12d; }
+  .header__amarillo h5:hover button,
+  .header__amarillo h5 button {
+    color: #181818; }
+
+.submenu__img {
+  background-color: #a28c02; }
+
+.submenu__img--listado {
+  background-color: #caaf02; }
+
+.submenu__img--catedras {
+  background-color: #f2d202; }
+  .submenu__img--catedras .nav-item:hover {
+    background-color: #feeb72; }
+  .submenu__img--catedras .nav-link {
+    color: black; }
+
+/* Fin Imagen y Sonido */
 /* Inicio Diseño de Indumentaria */
 /* Color */
 .header__naranja {
@@ -210,10 +215,6 @@ body {
 
 .submenu__indu {
   background-color: #a35f00; }
-  .submenu__indu .nav-item:hover {
-    background-color: #ffa21f; }
-  .submenu__indu .nav-link {
-    color: #fff; }
 
 .submenu__indu--listado {
   background-color: #cc7700; }
@@ -359,8 +360,3 @@ body {
     display: block;
     margin-right: 0;
     font-weight: 600; } }
-
-/* .btn-linki:hover,
-.btn-linki {
-  color: black;
-} */

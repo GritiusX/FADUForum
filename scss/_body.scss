@@ -32,14 +32,6 @@ body {
     }
   }
 }
-.header__amarillo {
-  background-color: $yyellow;
-  h5 {
-    button {
-      color: #181818;
-    }
-  }
-}
 
 .header__violeta {
   background-color: $vviolet;
@@ -115,16 +107,6 @@ body {
     color: #fff;
   }
 }
-.submenu__img {
-  background-color: $s1yellow;
-
-  .nav-item:hover {
-    background-color: $osyellow;
-  }
-  .nav-link {
-    color: black;
-  }
-}
 
 .submenu__cbc {
   background-color: $s1blue;
@@ -147,17 +129,6 @@ body {
 /* Submenu Catedras */
 
 /* Inicio de Arquitectura */
-.submenu__arq {
-  background-color: $s1red;
-
-  .nav-item:hover {
-    background-color: $osred;
-  }
-  .nav-link {
-    color: #fff;
-  }
-}
-
 .header__rojo {
   background-color: $rred;
   h5 {
@@ -167,20 +138,55 @@ body {
   }
 }
 
+.submenu__arq {
+  background-color: $s1red;
+}
+
 .submenu__arq--listado {
   background-color: $s2red;
 }
 
 .submenu__arq--catedras {
   background-color: $osred;
-  .nav-link {
-    color: #fff;
-  }
+
   .nav-item:hover {
     background-color: $hred;
   }
+  .nav-link {
+    color: #fff;
+  }
 }
 /* Fin Arquitectura */
+
+/* Inicio Diseño de Imagen y Sonido */
+/* Color */
+.header__amarillo {
+  background-color: $yyellow;
+  h5:hover,
+  h5 {
+    button {
+      color: #181818;
+    }
+  }
+}
+.submenu__img {
+  background-color: $s1yellow;
+}
+
+.submenu__img--listado {
+  background-color: $s2yellow;
+}
+
+.submenu__img--catedras {
+  background-color: $osyellow;
+  .nav-item:hover {
+    background-color: $hyellow;
+  }
+  .nav-link {
+    color: black;
+  }
+}
+/* Fin Imagen y Sonido */
 
 /* Inicio Diseño de Indumentaria */
 /* Color */
@@ -195,13 +201,6 @@ body {
 
 .submenu__indu {
   background-color: $s1orange;
-
-  .nav-item:hover {
-    background-color: $osorange;
-  }
-  .nav-link {
-    color: #fff;
-  }
 }
 
 .submenu__indu--listado {
