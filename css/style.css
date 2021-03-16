@@ -96,11 +96,6 @@ body {
 .card {
   color: #181818; }
 
-.header__cyan {
-  background-color: #90a9b7; }
-  .header__cyan h5 button {
-    color: #181818; }
-
 .header__violeta {
   background-color: #9c528b; }
   .header__violeta h5 button {
@@ -122,13 +117,6 @@ body {
   border-radius: 2px; }
 
 /* Submenus Niveles*/
-.submenu__text {
-  background-color: #6b8b9e; }
-  .submenu__text .nav-item:hover {
-    background-color: #a9bcc7; }
-  .submenu__text .nav-link {
-    color: black; }
-
 .submenu__paisa {
   background-color: #3a7e5e; }
   .submenu__paisa .nav-item:hover {
@@ -157,24 +145,25 @@ body {
   .submenu__cbc .nav-link {
     color: #fff; }
 
-/* Buttons del Accordion */
-.btn-link:hover,
-.btn-link {
-  color: #fff; }
-
-/* Fin Buttons del Accordion */
 /* Submenu Catedras */
 /* Inicio de Arquitectura */
 .header__rojo {
   background-color: #c14953; }
+  .header__rojo h5 button:hover,
   .header__rojo h5 button {
     color: #fff; }
 
 .submenu__arq {
   background-color: #6a242a; }
+  .submenu__arq h5 button:hover,
+  .submenu__arq h5 button {
+    color: #fff; }
 
 .submenu__arq--listado {
   background-color: #892f36; }
+  .submenu__arq--listado h5 button:hover,
+  .submenu__arq--listado h5 button {
+    color: #fff; }
 
 .submenu__arq--catedras {
   background-color: #c14951; }
@@ -210,23 +199,57 @@ body {
 /* Color */
 .header__naranja {
   background-color: #ff9505; }
+  .header__naranja h5 button:hover,
   .header__naranja h5 button {
     color: #181818; }
 
 .submenu__indu {
   background-color: #a35f00; }
+  .submenu__indu h5 button:hover,
+  .submenu__indu h5 button {
+    color: #181818; }
 
 .submenu__indu--listado {
   background-color: #cc7700; }
+  .submenu__indu--listado h5 button:hover,
+  .submenu__indu--listado h5 button {
+    color: #181818; }
 
 .submenu__indu--catedras {
   background-color: #ffa21f; }
   .submenu__indu--catedras .nav-link {
-    color: #fff; }
+    color: #181818; }
   .submenu__indu--catedras .nav-item:hover {
     background-color: #ffbb5c; }
 
 /* Fin de Diseño de Indumentaria */
+/* Diseño Textil */
+.header__cyan {
+  background-color: #90a9b7; }
+  .header__cyan h5 .btn-link:hover,
+  .header__cyan h5 .btn-link {
+    color: #181818; }
+
+.submenu__text {
+  background-color: #6b8b9e; }
+  .submenu__text button:hover,
+  .submenu__text button {
+    color: #181818; }
+
+.submenu__text--listado {
+  background-color: #b5c5cf; }
+  .submenu__text--listado button:hover,
+  .submenu__text--listado button {
+    color: #181818; }
+
+.submenu__text--catedras {
+  background-color: #6b8b9e; }
+  .submenu__text--catedras .nav-item:hover {
+    background-color: #a9bcc7; }
+  .submenu__text--catedras .nav-link {
+    color: black; }
+
+/* Fin Diseño Textil */
 .site-footer {
   background-color: #202020;
   padding: 45px 0 20px;

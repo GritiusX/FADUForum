@@ -24,14 +24,6 @@ body {
 .card {
   color: #181818;
 }
-.header__cyan {
-  background-color: $ccyan;
-  h5 {
-    button {
-      color: #181818;
-    }
-  }
-}
 
 .header__violeta {
   background-color: $vviolet;
@@ -66,16 +58,6 @@ body {
 }
 
 /* Submenus Niveles*/
-.submenu__text {
-  background-color: $s1cyan;
-
-  .nav-item:hover {
-    background-color: $oscyan;
-  }
-  .nav-link {
-    color: black;
-  }
-}
 
 .submenu__paisa {
   background-color: $su1green;
@@ -119,19 +101,13 @@ body {
   }
 }
 
-/* Buttons del Accordion */
-.btn-link:hover,
-.btn-link {
-  color: #fff;
-}
-/* Fin Buttons del Accordion */
-
 /* Submenu Catedras */
 
 /* Inicio de Arquitectura */
 .header__rojo {
   background-color: $rred;
   h5 {
+    button:hover,
     button {
       color: #fff;
     }
@@ -140,10 +116,22 @@ body {
 
 .submenu__arq {
   background-color: $s1red;
+  h5 {
+    button:hover,
+    button {
+      color: #fff;
+    }
+  }
 }
 
 .submenu__arq--listado {
   background-color: $s2red;
+  h5 {
+    button:hover,
+    button {
+      color: #fff;
+    }
+  }
 }
 
 .submenu__arq--catedras {
@@ -193,6 +181,7 @@ body {
 .header__naranja {
   background-color: $oorange;
   h5 {
+    button:hover,
     button {
       color: #181818;
     }
@@ -201,19 +190,71 @@ body {
 
 .submenu__indu {
   background-color: $s1orange;
+  h5 {
+    button:hover,
+    button {
+      color: #181818;
+    }
+  }
 }
 
 .submenu__indu--listado {
   background-color: $s2orange;
+  h5 {
+    button:hover,
+    button {
+      color: #181818;
+    }
+  }
 }
 
 .submenu__indu--catedras {
   background-color: $osorange;
   .nav-link {
-    color: #fff;
+    color: #181818;
   }
   .nav-item:hover {
     background-color: $horange;
   }
 }
 /* Fin de Diseño de Indumentaria */
+
+/* Diseño Textil */
+.header__cyan {
+  background-color: $ccyan;
+  h5 {
+    .btn-link:hover,
+    .btn-link {
+      color: #181818;
+    }
+  }
+}
+
+.submenu__text {
+  background-color: $s1cyan;
+  button:hover,
+  button {
+    color: #181818;
+  }
+}
+
+.submenu__text--listado {
+  background-color: $s2cyan;
+  button:hover,
+  button {
+    color: #181818;
+  }
+}
+
+.submenu__text--catedras {
+  background-color: $s1cyan;
+
+  .nav-item:hover {
+    background-color: $oscyan;
+  }
+  .nav-link {
+    color: black;
+  }
+}
+
+/* Fin Diseño Textil */
