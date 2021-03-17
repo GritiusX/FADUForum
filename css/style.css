@@ -34,8 +34,7 @@
 /* Safety Yellow */
 /* Cadet Blue Crayola */
 /* VER SI HAY QUE CAMBIAR */
-/* Acid Green */
-/* VER SI HAY QUE CAMBIAR */
+/* Artic Lime */
 /* Pearly Purple */
 /* VER SI HAY QUE CAMBIAR */
 /* Ocean Green */
@@ -44,6 +43,7 @@
 /* Candy Pink */
 /* Yellow Orange */
 /* Corn */
+/*Maximum Green Yellow  */
 .navbar {
   background-color: #202020;
   font-family: Helvetica, Arial, sans-serif;
@@ -106,11 +106,6 @@ body {
   .header__vverde h5 button {
     color: #fff; }
 
-.header__verde {
-  background-color: #8ea604; }
-  .header__verde h5 button {
-    color: #fff; }
-
 /* fin accordion */
 .caja-carreras {
   background-color: #424242;
@@ -122,13 +117,6 @@ body {
   .submenu__paisa .nav-item:hover {
     background-color: #65b892; }
   .submenu__paisa .nav-link {
-    color: #fff; }
-
-.submenu__indus {
-  background-color: #657604; }
-  .submenu__indus .nav-item:hover {
-    background-color: #a8c507; }
-  .submenu__indus .nav-link {
     color: #fff; }
 
 .submenu__graf {
@@ -173,6 +161,33 @@ body {
     color: #fff; }
 
 /* Fin Arquitectura */
+/* Diseño Industrial */
+.header__verde {
+  background-color: #8ea604; }
+  .header__verde h5 button:hover,
+  .header__verde h5 button {
+    color: #fff; }
+
+.submenu__indus {
+  background-color: #657604; }
+  .submenu__indus h5 button:hover,
+  .submenu__indus h5 button {
+    color: #fff; }
+
+.submenu__indus--listado {
+  background-color: #b9d908; }
+  .submenu__indus--listado h5 button:hover,
+  .submenu__indus--listado h5 button {
+    color: #181818; }
+
+.submenu__indus--catedras {
+  background-color: #d4f613; }
+  .submenu__indus--catedras .nav-item:hover {
+    background-color: #e3f962; }
+  .submenu__indus--catedras .nav-link {
+    color: #181818; }
+
+/* Final Diseño Industrial */
 /* Inicio Diseño de Imagen y Sonido */
 /* Color */
 .header__amarillo {
@@ -183,9 +198,15 @@ body {
 
 .submenu__img {
   background-color: #a28c02; }
+  .submenu__img h5 button:hover,
+  .submenu__img h5 button {
+    color: #181818; }
 
 .submenu__img--listado {
   background-color: #caaf02; }
+  .submenu__img--listado h5 button:hover,
+  .submenu__img--listado h5 button {
+    color: #181818; }
 
 .submenu__img--catedras {
   background-color: #f2d202; }
@@ -196,7 +217,6 @@ body {
 
 /* Fin Imagen y Sonido */
 /* Inicio Diseño de Indumentaria */
-/* Color */
 .header__naranja {
   background-color: #ff9505; }
   .header__naranja h5 button:hover,

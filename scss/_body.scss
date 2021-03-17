@@ -42,15 +42,6 @@ body {
   }
 }
 
-.header__verde {
-  background-color: $ggreen;
-  h5 {
-    button {
-      color: #fff;
-    }
-  }
-}
-
 /* fin accordion */
 .caja-carreras {
   background-color: #424242;
@@ -69,16 +60,7 @@ body {
     color: #fff;
   }
 }
-.submenu__indus {
-  background-color: $s1green;
 
-  .nav-item:hover {
-    background-color: $osgreen;
-  }
-  .nav-link {
-    color: #fff;
-  }
-}
 .submenu__graf {
   background-color: $s1violet;
 
@@ -146,6 +128,50 @@ body {
 }
 /* Fin Arquitectura */
 
+/* Diseño Industrial */
+.header__verde {
+  background-color: $ggreen;
+  h5 {
+    button:hover,
+    button {
+      color: #fff;
+    }
+  }
+}
+
+.submenu__indus {
+  background-color: $s1green;
+  h5 {
+    button:hover,
+    button {
+      color: #fff;
+    }
+  }
+}
+
+.submenu__indus--listado {
+  background-color: $s2green;
+  h5 {
+    button:hover,
+    button {
+      color: #181818;
+    }
+  }
+}
+
+.submenu__indus--catedras {
+  background-color: $osgreen;
+
+  .nav-item:hover {
+    background-color: $hgreen;
+  }
+  .nav-link {
+    color: #181818;
+  }
+}
+
+/* Final Diseño Industrial */
+
 /* Inicio Diseño de Imagen y Sonido */
 /* Color */
 .header__amarillo {
@@ -159,10 +185,22 @@ body {
 }
 .submenu__img {
   background-color: $s1yellow;
+  h5 {
+    button:hover,
+    button {
+      color: #181818;
+    }
+  }
 }
 
 .submenu__img--listado {
   background-color: $s2yellow;
+  h5 {
+    button:hover,
+    button {
+      color: #181818;
+    }
+  }
 }
 
 .submenu__img--catedras {
@@ -177,7 +215,7 @@ body {
 /* Fin Imagen y Sonido */
 
 /* Inicio Diseño de Indumentaria */
-/* Color */
+
 .header__naranja {
   background-color: $oorange;
   h5 {
