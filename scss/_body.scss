@@ -25,14 +25,6 @@ body {
   color: #181818;
 }
 
-.header__violeta {
-  background-color: $vviolet;
-  h5 {
-    button {
-      color: #fff;
-    }
-  }
-}
 .header__vverde {
   background-color: $ggrreen;
   h5 {
@@ -55,17 +47,6 @@ body {
 
   .nav-item:hover {
     background-color: $osugreen;
-  }
-  .nav-link {
-    color: #fff;
-  }
-}
-
-.submenu__graf {
-  background-color: $s1violet;
-
-  .nav-item:hover {
-    background-color: $osviolet;
   }
   .nav-link {
     color: #fff;
@@ -296,3 +277,40 @@ body {
 }
 
 /* Fin Diseño Textil */
+
+/* Diseño Gráfico */
+.header__violeta {
+  background-color: $vviolet;
+  h5:hover,
+  h5 {
+    button {
+      color: #fff;
+    }
+  }
+}
+.submenu__graf {
+  background-color: $s1violet;
+  button:hover,
+  button {
+    color: #fff;
+  }
+}
+.submenu__graf--listado {
+  background-color: $s2violet;
+  button:hover,
+  button {
+    color: #fff;
+  }
+}
+.submenu__graf--catedras {
+  background-color: $osviolet;
+
+  .nav-item:hover {
+    background-color: $hviolet;
+  }
+  .nav-link {
+    color: #181818;
+  }
+}
+
+/* Fin Diseño Gráfico */

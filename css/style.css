@@ -24,7 +24,7 @@
 /* Old Gold */
 /* Beau Blue */
 /* Bitter Lemon */
-/* Opera Mauve */
+/* Pearly Purple */
 /* Eton Blue */
 /* Variables Opciones de Submenus2 */
 /* Deep Space Sparkle */
@@ -35,8 +35,7 @@
 /* Cadet Blue Crayola */
 /* VER SI HAY QUE CAMBIAR */
 /* Artic Lime */
-/* Pearly Purple */
-/* VER SI HAY QUE CAMBIAR */
+/* Opera Mauve*/
 /* Ocean Green */
 /* VER SI HAY QUE CAMBIAR */
 /* Hover Accordion */
@@ -44,6 +43,7 @@
 /* Yellow Orange */
 /* Corn */
 /*Maximum Green Yellow  */
+/* lilac */
 .navbar {
   background-color: #202020;
   font-family: Helvetica, Arial, sans-serif;
@@ -96,11 +96,6 @@ body {
 .card {
   color: #181818; }
 
-.header__violeta {
-  background-color: #9c528b; }
-  .header__violeta h5 button {
-    color: #fff; }
-
 .header__vverde {
   background-color: #49a078; }
   .header__vverde h5 button {
@@ -117,13 +112,6 @@ body {
   .submenu__paisa .nav-item:hover {
     background-color: #65b892; }
   .submenu__paisa .nav-link {
-    color: #fff; }
-
-.submenu__graf {
-  background-color: #783f6b; }
-  .submenu__graf .nav-item:hover {
-    background-color: #b26ca3; }
-  .submenu__graf .nav-link {
     color: #fff; }
 
 .submenu__cbc {
@@ -270,6 +258,33 @@ body {
     color: black; }
 
 /* Fin Diseño Textil */
+/* Diseño Gráfico */
+.header__violeta {
+  background-color: #9c528b; }
+  .header__violeta h5:hover button,
+  .header__violeta h5 button {
+    color: #fff; }
+
+.submenu__graf {
+  background-color: #783f6b; }
+  .submenu__graf button:hover,
+  .submenu__graf button {
+    color: #fff; }
+
+.submenu__graf--listado {
+  background-color: #ab5f9a; }
+  .submenu__graf--listado button:hover,
+  .submenu__graf--listado button {
+    color: #fff; }
+
+.submenu__graf--catedras {
+  background-color: #b979ab; }
+  .submenu__graf--catedras .nav-item:hover {
+    background-color: #cea1c4; }
+  .submenu__graf--catedras .nav-link {
+    color: #181818; }
+
+/* Fin Diseño Gráfico */
 .site-footer {
   background-color: #202020;
   padding: 45px 0 20px;
