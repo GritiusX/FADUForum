@@ -4,6 +4,16 @@
   }
 }
 
+.body__color--acerca {
+  background-color: $s1red;
+}
+.card-color {
+  background-color: #424242;
+  .card-body {
+    color: #fff;
+  }
+}
+
 body {
   background-color: #181818;
   color: #fff;

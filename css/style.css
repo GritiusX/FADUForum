@@ -80,6 +80,14 @@
 .carousel-inner img {
   margin: auto; }
 
+.body__color--acerca {
+  background-color: #6a242a; }
+
+.card-color {
+  background-color: #424242; }
+  .card-color .card-body {
+    color: #fff; }
+
 body {
   background-color: #181818;
   color: #fff; }
