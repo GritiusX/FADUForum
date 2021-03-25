@@ -25,15 +25,6 @@ body {
   color: #181818;
 }
 
-.header__vverde {
-  background-color: $ggrreen;
-  h5 {
-    button {
-      color: #fff;
-    }
-  }
-}
-
 /* fin accordion */
 .caja-carreras {
   background-color: #424242;
@@ -41,17 +32,6 @@ body {
 }
 
 /* Submenus Niveles*/
-
-.submenu__paisa {
-  background-color: $su1green;
-
-  .nav-item:hover {
-    background-color: $osugreen;
-  }
-  .nav-link {
-    color: #fff;
-  }
-}
 
 .submenu__cbc {
   background-color: $s1blue;
@@ -314,3 +294,43 @@ body {
 }
 
 /* Fin Diseño Gráfico */
+
+/* Paisajismo */
+
+.header__vverde {
+  background-color: $ggrreen;
+  h5,
+  h5:hover {
+    button {
+      color: #fff;
+    }
+  }
+}
+
+.submenu__paisa {
+  background-color: $su1green;
+  button:hover,
+  button {
+    color: #fff;
+  }
+}
+
+.submenu__paisa--listado {
+  background-color: $su2green;
+  button:hover,
+  button {
+    color: #fff;
+  }
+}
+
+.submenu__paisa--catedras {
+  background-color: $osugreen;
+
+  .nav-item:hover {
+    background-color: $hugreen;
+  }
+  .nav-link {
+    color: #fff;
+  }
+}
+/* Fin Paisajismo */
